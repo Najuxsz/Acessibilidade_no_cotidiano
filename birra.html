@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/acessi.css">
+    <title>Acessibilidade_no_diaadia</title>
+</head>
+<body>
+    <header>
+        <main>
+           
+            <div class="nav__1">
+                <button onclick="opcoesAces()" id="container_acess">
+                    <img class="img" src="imagens/icone_acess.png" alt="icone_acess">
+                </button>
+                <p class="acess">Acessibilidade</p>
+            </div>
+        
+
+            <div id="openAcessibilidade">
+                <button id="x" onclick="fechar()">X</button>
+                <button onclick="aumentarLetra(2)">A+ Aumentar letras</button>
+                <button onclick="diminuirLetra(-2)">A- Diminuir letras</button>
+                <button onclick="aumentarEspacoLinhas()">Aumentar espaçamento entre linhas</button>
+                <button onclick="diminuirEspacoLinhas()">Diminuir espaçamento entre linhas</button>
+            </div>
+
+            <div class="nav__ul2">
+                <ul>
+                    <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                    <li class="nav__li"><a class="nav__a" href="tipos.html">Tipos de acessibilidade</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cotidiano.html">Acessibilidade no Cotidiano</a></li>
+                    <li class="nav__li"><a class="nav__a" href="birra.html">É birra?</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cores.html">Teoria das cores</a></li>
+                </ul>
+            </div>
+        </main>
+
+    </header>
+
+    <h1 class="titulo">É birra?</h1>
+    <p class="texto">
+        Muitas vezes, a falta de compreensão sobre acessibilidade leva a questionamentos como <br> "Será que isso é realmente necessário?" ou "Não é só uma birra de quem não quer se adaptar?". <br> Ou até mesmo a frase "Essa criança tem autismo mesmo? Isso é birra só" <br> A resposta é simples: NÃO É BIRRA. <br> Quando falamos de acessibilidade, estamos tratando de necessidades legítimas de muitas pessoas que, <br> devido a deficiências temporárias ou permanentes, enfrentam dificuldades diárias em ambientes que não são projetados para elas. <br> Ou dificuldades de entender o que é certo ou errado em situações cotidianas, <br> como a comunicação, a mobilidade ou o simples ato de interagir com objetos e espaços ao seu redor.
+    </p> 
+
+    <img class = "img_pric" src="imagens/birra.jpg" alt="">
+
+    <p class="texto">
+        Educar uma criança autista exige uma abordagem cuidadosa, empática e, muitas vezes, adaptada às necessidades específicas da criança. <br> A comunicação é um dos aspectos mais importantes, já que muitas crianças autistas podem ter <br> dificuldades para entender e processar certas informações. <br> Portanto, a maneira como você diz "não", como estabelece limites e como <br> oferece apoio emocional pode ter um grande impacto no desenvolvimento dela.
+    </p>
+
+    <div class="container">
+        <h1 class="texto1">Exemplo Prático: Como Dizer "Não" para uma Criança Autista</h1>
+
+        <div class="scenario">
+            <h2 class="texto1">Situação:</h2>
+            <p class="texto1">A criança quer continuar assistindo TV, mas já é hora de fazer os deveres de casa.</p>
+        </div>
+
+        <div class="steps">
+            <h2>Passos para dizer "Não" de forma eficaz:</h2>
+            
+            <div class="step">
+                <h3>1. Diga "não" de forma simples e clara:</h3>
+                <p><strong>"Não podemos assistir mais TV agora."</strong></p>
+            </div>
+            
+            <div class="step">
+                <h3>2. Explique o motivo de forma simples:</h3>
+                <p><strong>"Agora é hora de fazer a lição de casa."</strong></p>
+            </div>
+            
+            <div class="step">
+                <h3>3. Ofereça uma alternativa ou um tempo de transição:</h3>
+                <p><strong>"Depois que terminar a lição de casa, podemos assistir mais TV."</strong></p>
+            </div>
+            
+            <div class="step">
+                <h3>4. Elogie quando a criança aceitar:</h3>
+                <p><strong>"Ótimo trabalho começando a lição de casa! Você vai conseguir fazer tudo rapidinho."</strong></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ana Julia Caetano Bento. TDE sobre acessibilidade</p>
+            <p> Todos os direitos reservados. </p>
+            <p><a href="https://www.handtalk.me/br/blog/acessibilidade-exemplos/" target="_blank" title="Acessibilidade em sites">Link para mais informações sobre Acessibilidade</a></p>
+        </div>
+    </footer>
+    <script src="script/acess.js"></script>
+</body>
+</html>

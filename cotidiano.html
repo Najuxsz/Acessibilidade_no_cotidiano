@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/acessi.css">
+    <title>Acessibilidade_no_diaadia</title>
+</head>
+<body>
+    <header>
+        <main>
+           
+            <div class="nav__1">
+                <button onclick="opcoesAces()" id="container_acess">
+                    <img class="img" src="imagens/icone_acess.png" alt="icone_acess">
+                </button>
+                <p class="acess">Acessibilidade</p>
+            </div>
+        
+
+            <div id="openAcessibilidade">
+                <button id="x" onclick="fechar()">X</button>
+                <button onclick="aumentarLetra(2)">A+ Aumentar letras</button>
+                <button onclick="diminuirLetra(-2)">A- Diminuir letras</button>
+                <button onclick="aumentarEspacoLinhas()">Aumentar espaçamento entre linhas</button>
+                <button onclick="diminuirEspacoLinhas()">Diminuir espaçamento entre linhas</button>
+            </div>
+
+            <div class="nav__ul2">
+                <ul>
+                    <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                    <li class="nav__li"><a class="nav__a" href="tipos.html">Tipos de acessibilidade</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cotidiano.html">Acessibilidade no Cotidiano</a></li>
+                    <li class="nav__li"><a class="nav__a" href="birra.html">É birra?</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cores.html">Teoria das cores</a></li>
+                </ul>
+            </div>
+        </main>
+
+    </header>
+
+    <h1 class="titulo">Acessibilidade no cotidiano:</h1>
+    <p class="texto">
+        A acessibilidade deve estar presente em todos os aspectos do nosso cotidiano. <br> Isso inclui desde a forma como projetamos as cidades até como acessamos informações na internet. <br><br> Aqui estão alguns exemplos práticos de como podemos promover a acessibilidade no dia a dia: <br>
+    </p> 
+
+    <div class="acessibilidade2">
+        <ul class="lista-acessibilidade2">
+            <li><strong>Espaços Públicos:</strong> Rampas de acesso, semáforos sonoros, calçadas largas e adaptadas, banheiros acessíveis e transporte público adequado.</li>
+            <li><strong>Tecnologia:</strong> Aplicativos que permitem aumentar o tamanho da fonte ou alterar o contraste, sites com navegação por teclado, e textos alternativos para imagens.</li>
+            <li><strong>Comunicação:</strong> Utilizar linguagem clara e simples, oferecer legendas e tradução para a Língua Brasileira de Sinais (Libras), e promover a inclusão de pessoas surdas e com deficiências cognitivas nas interações sociais.</li>
+        </ul>
+    </div>
+
+    <div class="imagem-container">
+        <img src="imagens/adaptacao.jpg" alt="Imagem 1" class="imagem">
+        <img src="imagens/adaptacao2.jpg" alt="Imagem 2" class="imagem">
+        <img src="imagens/adaptacao3.png" alt="Imagem 3" class="imagem">
+    </div>
+
+
+    <p class="texto">
+        A acessibilidade no cotidiano não é apenas uma questão de obrigação legal,<br> mas de respeito e empatia para com todos, independentemente das suas limitações.
+    </p>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ana Julia Caetano Bento. TDE sobre acessibilidade</p>
+            <p> Todos os direitos reservados. </p>
+            <p><a href="https://www.handtalk.me/br/blog/acessibilidade-exemplos/" target="_blank" title="Acessibilidade em sites">Link para mais informações sobre Acessibilidade</a></p>
+        </div>
+    </footer>
+    <script src="script/acess.js"></script>
+</body>
+</html>

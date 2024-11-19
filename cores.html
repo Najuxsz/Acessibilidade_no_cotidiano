@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/acessi.css">
+    <title>Acessibilidade_no_diaadia</title>
+</head>
+<body>
+    <header>
+        <main>
+           
+            <div class="nav__1">
+                <button onclick="opcoesAces()" id="container_acess">
+                    <img class="img" src="imagens/icone_acess.png" alt="icone_acess">
+                </button>
+                <p class="acess">Acessibilidade</p>
+            </div>
+        
+
+            <div id="openAcessibilidade">
+                <button id="x" onclick="fechar()">X</button>
+                <button onclick="aumentarLetra(2)">A+ Aumentar letras</button>
+                <button onclick="diminuirLetra(-2)">A- Diminuir letras</button>
+                <button onclick="aumentarEspacoLinhas()">Aumentar espaçamento entre linhas</button>
+                <button onclick="diminuirEspacoLinhas()">Diminuir espaçamento entre linhas</button>
+            </div>
+
+            <div class="nav__ul2">
+                <ul>
+                    <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                    <li class="nav__li"><a class="nav__a" href="tipos.html">Tipos de acessibilidade</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cotidiano.html">Acessibilidade no Cotidiano</a></li>
+                    <li class="nav__li"><a class="nav__a" href="birra.html">É birra?</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cores.html">Teoria das cores</a></li>
+                </ul>
+            </div>
+        </main>
+
+    </header>
+
+    <h1 class="titulo">Teoria das cores:</h1>
+    <p class="texto">
+        <strong>Você sabe o que é a teoria das cores?</strong><br><br>
+        Este site foi desenvolvido seguindo os princípios da teoria das cores para tornar a navegação mais acessível. <br>
+        Pessoas com autismo, deficiência visual e daltonismo podem ter dificuldades com algumas cores. <br> <br>
+        Pessoas autistas, por exemplo, costumam se sentir mais confortáveis com cores suaves e calmas, como o azul claro e o bege. <br> Essas cores não sobrecarregam os sentidos e ajudam a criar um ambiente mais tranquilo. <br><br>
+        Para pessoas com deficiência visual, usamos cores que não forçam a vista, garantindo uma leitura mais confortável. <br><br>
+        Quanto aos daltonicos, que possuem dificuldades para distinguir certas cores, como o vermelho e o verde, bem como tons de azul escuro, <br> optamos por evitar essas combinações para facilitar a visualização para todos. <br> <br>
+        O uso consciente das cores pode melhorar a experiência de navegação, criando um ambiente mais inclusivo para todos.
+    </p>
+
+    <img class = "img_pric" src="imagens/daltonismo.png" alt="">
+
+    <p class="texto">
+        Além disso, a escolha de cores pode influenciar a experiência de usuários com diferentes condições visuais,<br> como pessoas com baixa visão ou cegueira parcial. <br> <br>Para esses casos, é importante garantir um contraste adequado entre o texto e o fundo, evitando combinações que dificultem a leitura. <br><br>
+        Por isso, as cores escolhidas para este site foram pensadas para serem agradáveis e acessíveis para todos os tipos de usuários,<br> sem prejudicar a percepção de quem possui alguma deficiência visual.
+    </p>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ana Julia Caetano Bento. TDE sobre acessibilidade</p>
+            <p> Todos os direitos reservados. </p>
+            <p><a href="https://www.handtalk.me/br/blog/acessibilidade-exemplos/" target="_blank" title="Acessibilidade em sites">Link para mais informações sobre Acessibilidade</a></p>
+        </div>
+    </footer>
+    <script src="script/acess.js"></script>
+</body>
+</html>

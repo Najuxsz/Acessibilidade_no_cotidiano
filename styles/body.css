@@ -1,0 +1,133 @@
+/* O QUE É ACESSIBILIDADE */
+
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.3; 
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f7f4ea;
+}
+
+.img_pric {
+    display: block;         
+    margin: 0 auto;         
+    padding: 10px;   
+    width: 600px;
+    height: 400px;   
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_pric:hover {
+    transform: scale(1.1); 
+}
+
+/* TIPOS DE ACESSIBILIDADE */
+
+.acessibilidade {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #c0d3f7; 
+    border-radius: 10px;
+}
+
+.lista-acessibilidade {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    padding-left: 20px; 
+    font-size: 20px;  
+    color: #000000; 
+}
+
+.lista-acessibilidade li {
+    margin-bottom: 10px; 
+}
+
+.lista-acessibilidade li strong {
+    color: #824f8b; 
+}
+
+/* cotidiano */
+
+.acessibilidade2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ebbaf0; 
+    border-radius: 10px;
+}
+
+.lista-acessibilidade2 {
+    list-style-type: disc; 
+    margin-left: 20px; 
+    padding-left: 20px; 
+    font-size: 20px;  
+    color: #000000; 
+}
+
+.lista-acessibilidade2 li {
+    margin-bottom: 10px; 
+}
+
+.lista-acessibilidade2 li strong {
+    color: #2e2763; 
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 15px;
+}
+
+.imagem {
+    width: 400px; 
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagem:hover {
+    transform: scale(1.1); 
+}
+
+
+.steps {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.step p {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.step strong {
+    color: #824f8b;
+}
+
+.texto1 {
+    margin-left: 25px;
+}

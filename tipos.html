@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/acessi.css">
+    <title>Acessibilidade_no_diaadia</title>
+</head>
+<body>
+    <header>
+        <main>
+           
+            <div class="nav__1">
+                <button onclick="opcoesAces()" id="container_acess">
+                    <img class="img" src="imagens/icone_acess.png" alt="icone_acess">
+                </button>
+                <p class="acess">Acessibilidade</p>
+            </div>
+        
+
+            <div id="openAcessibilidade">
+                <button id="x" onclick="fechar()">X</button>
+                <button onclick="aumentarLetra(2)">A+ Aumentar letras</button>
+                <button onclick="diminuirLetra(-2)">A- Diminuir letras</button>
+                <button onclick="aumentarEspacoLinhas()">Aumentar espaçamento entre linhas</button>
+                <button onclick="diminuirEspacoLinhas()">Diminuir espaçamento entre linhas</button>
+            </div>
+
+            <div class="nav__ul2">
+                <ul>
+                    <li class="nav__li"><a class="nav__a" href="index.html">Home</a></li>
+                    <li class="nav__li"><a class="nav__a" href="tipos.html">Tipos de acessibilidade</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cotidiano.html">Acessibilidade no Cotidiano</a></li>
+                    <li class="nav__li"><a class="nav__a" href="birra.html">É birra?</a></li>
+                    <li class="nav__li"><a class="nav__a" href="cores.html">Teoria das cores</a></li>
+                </ul>
+            </div>
+        </main>
+
+    </header>
+
+    <h1 class="titulo">Tipos de acessibilidade:</h1>
+        <p class="texto">
+            A acessibilidade pode ser entendida como a capacidade de qualquer pessoa, independentemente de suas condições físicas ou sensoriais,<br> interagir com o ambiente e com as tecnologias ao seu redor. <br><br> Existem diferentes tipos de acessibilidade, que incluem: <br>       
+        </p> 
+
+        <div class="acessibilidade">
+            <ul class="lista-acessibilidade">
+                <li><strong>Acessibilidade Física:</strong> Refere-se à eliminação de barreiras arquitetônicas e ao acesso a espaços, como rampas, elevadores e portas largas.</li>
+                <li><strong>Acessibilidade Digital:</strong> Envolve garantir que sites, aplicativos e outras plataformas digitais sejam utilizáveis por pessoas com deficiência, como a utilização de leitores de tela e a adaptação de conteúdo.</li>
+                <li><strong>Acessibilidade Comunicacional:</strong> Garante que a informação seja acessível a todos, como legendas em vídeos, intérpretes de libras e recursos de áudio para deficientes visuais.</li>
+                <li><strong>Acessibilidade Cognitiva:</strong> Refere-se a tornar a informação clara e fácil de compreender, com uso de linguagem simples, iconografia e estruturas de navegação mais intuitivas.</li>
+            </ul>
+        </div>
+
+        <img class="img_pric" src="imagens/icones.png" alt="">
+
+
+        <p class="texto">
+            Esses são apenas alguns exemplos de como podemos tornar o mundo mais acessível. <br> A implementação dessas práticas não só beneficia pessoas com deficiência, mas todos que interagem com o ambiente!! <br>
+        </p> 
+        
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ana Julia Caetano Bento. TDE sobre acessibilidade</p>
+            <p> Todos os direitos reservados. </p>
+            <p><a href="https://www.handtalk.me/br/blog/acessibilidade-exemplos/" target="_blank" title="Acessibilidade em sites">Link para mais informações sobre Acessibilidade</a></p>
+        </div>
+    </footer>
+    <script src="script/acess.js"></script>
+</body>
+</html>
